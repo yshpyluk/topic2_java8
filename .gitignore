@@ -1,0 +1,22 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+classes
+
+.DS_Store
+
+### Temporary ###
+/storage
+*/storage
+/data
+*/data
+
+### Logs ###
+logs/
+*.log
