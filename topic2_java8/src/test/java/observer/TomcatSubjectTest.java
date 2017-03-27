@@ -12,6 +12,7 @@ public class TomcatSubjectTest {
     @Before
     public void init() {
         tomcat = new TomcatSubject();
+        tomcat.attach(new PrintListener());
 //        tomcat.attach();
     }
 
